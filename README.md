@@ -2,7 +2,6 @@
 
 **Vizualizar todas as receitas**
 
-----
 
 * **URL**
 
@@ -63,10 +62,10 @@
 
   * **Status:** 500 Internal Server Error <br />
     **Corpo:** `{ erro : "Alguma coisa deu errada." }`
+----
 
 **Adicionar receita**
 
-----
 
 * **URL**
 
@@ -134,10 +133,10 @@
     **Corpo:** `{ erro : "Alguma coisa deu errada." }`
 
 
+----
 
 **Visualizar receita específica**
 
-----
 
 * **URL**
 
@@ -205,10 +204,10 @@
     **Corpo:** `{ erro : "Alguma coisa deu errada." }`
 
 
+----
 
 **Editar Receita**
 
-----
     
 
 * **URL**
@@ -270,10 +269,10 @@
   * **Status:** 400 Bad Request <br />
     **Corpo:** `{ erro : "Não foi possível editar a receita" }`
 
+----    
 
 
 **Visualizar processo atual**
-----    
 
 * **URL**
 
@@ -377,10 +376,10 @@
     **Corpo:** `{ erro : "Alguma coisa deu errada." }`
 
 
+----
 
 **Visualizar processo específico**
 
-----
 
     
 
@@ -480,10 +479,10 @@
 
   * **Status:** 500 Internal Server Error <br />
     **Corpo:** `{ erro : "Alguma coisa deu errada." }`
+----
 
 **Iniciar processo**
 
-----
 
     
 
@@ -528,10 +527,10 @@
 
   * **Status:** 500 Internal Server Error <br />
     **Corpo:** `{ erro : "Alguma coisa deu errada." }`
+----
 
 **Iniciar limpeza**
 
-----
     
 
 * **URL**
