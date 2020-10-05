@@ -1,0 +1,35 @@
+{
+  "name": "microcervejaria-api",
+  "version": "1.0.0",
+  "description": "Mock da API dos componentes eletrônicos.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Microcervejaria/Microcervejaria-Api.git"
+  },
+  "contributors": [
+    {
+      "name": "Vinícius de Castro Cantuária",
+      "email": "cantuariavc@gmail.com",
+      "url": "https://github.com/cantuariavc"
+    },
+    {
+      "name": "Matheus Roberto Alves da Silva",
+      "email": "matheus456456@gmail.com",
+      "url": "https://github.com/Matheus456"
+    },
+    {
+      "name": "Mateus de Oliveira Barbosa",
+      "email": "oliveira.mateusbarbosa@gmail.com",
+      "url": "https://github.com/MateusO97"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Microcervejaria/Microcervejaria-Api/issues"
+  },
+  "homepage": "https://github.com/Microcervejaria/Microcervejaria-Api#readme"
+}
