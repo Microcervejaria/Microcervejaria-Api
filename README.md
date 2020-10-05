@@ -21,7 +21,7 @@
   
 * **Resposta de Sucesso:**
 
-  * **Status:** 200 OK <br />
+  * **Status:** 200 OK  
     **Corpo:** 
     ```json
     [{
@@ -55,13 +55,13 @@
  
 * **Resposta de Erro:**
 
-  * **Status:** 401 Unauthorized <br />
-    **Corpo:** `{ erro : "Token não encontrado." }`
+  * **Status:** 401 Unauthorized  
+    **Corpo:** `{ erro: "Token não encontrado." }`
 
   OU
 
-  * **Status:** 500 Internal Server Error <br />
-    **Corpo:** `{ erro : "Alguma coisa deu errada." }`
+  * **Status:** 500 Internal Server Error  
+    **Corpo:** `{ erro: "Alguma coisa deu errada." }`
 ----
 
 **Adicionar receita**
@@ -73,7 +73,7 @@
 
 * **Headers**
 
-  **authorization**: Token
+  **authorization**: Token  
   **Content-Type**: 'application/json'
 
 * **Método:**
@@ -114,23 +114,23 @@
   
 * **Resposta de Sucesso:**
 
-  * **Status:** 200 OK <br />
-    **Corpo:** 
+  * **Status:** 200 OK  
+    **Corpo:** `{ mensagem: "Receita cadastrada com sucesso." }`
  
 * **Resposta de Erro:**
 
-  * **Status:** 401 Unauthorized br />
-    **Corpo:** `{ erro : "Token não encontrado." }`
+  * **Status:** 401 Unauthorized  
+    **Corpo:** `{ erro: "Token não encontrado." }`
 
   OU
 
-  * **Status:** 400 Bad Request <br />
-    **Corpo:** `{ erro : "Não foi possível adicionar a receita" }`
+  * **Status:** 400 Bad Request  
+    **Corpo:** `{ erro: "Não foi possível adicionar a receita" }`
     
   OU
 
-  * **Status:** 500 Internal Server Error <br />
-    **Corpo:** `{ erro : "Alguma coisa deu errada." }`
+  * **Status:** 500 Internal Server Error  
+    **Corpo:** `{ erro: "Alguma coisa deu errada." }`
 
 
 ----
@@ -156,7 +156,7 @@
   
 * **Resposta de Sucesso:**
 
-  * **Status:** 200 OK <br />
+  * **Status:** 200 OK  
     **Corpo:** 
     ```json
     {
@@ -190,18 +190,18 @@
  
 * **Resposta de Erro:**
 
-  * **Status:** 401 Unauthorized <br />
-    **Corpo:** `{ erro : "Token não encontrado." }`
+  * **Status:** 401 Unauthorized  
+    **Corpo:** `{ erro: "Token não encontrado." }`
 
   OU
 
-  * **Status:** 400 Bad Request <br />
-    **Corpo:** `{ erro : "Receita não encontrada." }`
+  * **Status:** 400 Bad Request  
+    **Corpo:** `{ erro: "Receita não encontrada." }`
 
   OU
 
-  * **Status:** 500 Internal Server Error <br />
-    **Corpo:** `{ erro : "Alguma coisa deu errada." }`
+  * **Status:** 500 Internal Server Error  
+    **Corpo:** `{ erro: "Alguma coisa deu errada." }`
 
 
 ----
@@ -216,7 +216,7 @@
 
 * **Headers**
 
-  **authorization**: Token
+  **authorization**: Token  
   **Content-Type**: 'application/json'
 
 * **Método:**
@@ -243,31 +243,32 @@
             "temperatura": "number"
         }],
         "fervura": {
-        "tempoTotal": "number",
-        "ingredientes": [{
-            "tempo": "number",
-            "nome": "string",
-            "quantidade": "string",
-            "unidadeMedida": "enum"
-        }]
+            "tempoTotal": "number",
+            "ingredientes": [{
+                "tempo": "number",
+                "nome": "string",
+                "quantidade": "string",
+                "unidadeMedida": "enum"
+            }]
+        }
     }
     ```
 
   
 * **Resposta de Sucesso:**
 
-  * **Status:** 200 OK <br />
-    **Corpo:** 
+  * **Status:** 200 OK  
+    **Corpo:** `{ mensagem: "Receita atualizada com sucesso." }`
  
 * **Resposta de Erro:**
 
-  * **Status:** 401 Unauthorized br />
-    **Corpo:** `{ erro : "Token não encontrado." }`
+  * **Status:** 401 Unauthorized  
+    **Corpo:** `{ erro: "Token não encontrado." }`
 
   OU
 
-  * **Status:** 400 Bad Request <br />
-    **Corpo:** `{ erro : "Não foi possível editar a receita" }`
+  * **Status:** 400 Bad Request  
+    **Corpo:** `{ erro: "Não foi possível editar a receita" }`
 
 ----    
 
@@ -292,11 +293,11 @@
   
 * **Resposta de Sucesso:**
 
-  * **Status:** 200 OK <br />
+  * **Status:** 200 OK  
     **Corpo:** 
     ```json
     {
-        "processo":"string",
+        "processo": "string",
         "etapas": [{
             "tempo": "number",
             "temperatura": "number",
@@ -305,7 +306,7 @@
                 "nome": "string",
                 "quantidade": "string",
                 "unidadeMedida": "enum"
-            }],
+            }]
         }],
         "tempoTotal": "number",
         "tempoAtual": "number",
@@ -316,7 +317,7 @@
     **Exemplo aquecimento:** 
     ```json
      {
-        "processo":"aquecimento",
+        "processo": "aquecimento",
         "etapas": [{
             "temperatura": "number"
         }],
@@ -329,7 +330,7 @@
     **Exemplo brassagem:** 
     ```json
     {
-        "processo":"brassagem",
+        "processo": "brassagem",
         "etapas": [{
             "tempo": "number",
             "temperatura": "number"
@@ -343,7 +344,7 @@
     **Exemplo Fervura:** 
     ```json
     {
-        "processo":"fervura",
+        "processo": "fervura",
         "etapas": [{
             "ingredientes": [{
                 "tempo": "number",
@@ -362,18 +363,18 @@
 
 * **Resposta de Erro:**
 
-  * **Status:** 401 Unauthorized <br />
-    **Corpo:** `{ erro : "Token não encontrado." }`
+  * **Status:** 401 Unauthorized  
+    **Corpo:** `{ erro: "Token não encontrado." }`
 
   OU
 
-  * **Status:** 400 Bad Request <br />
-    **Corpo:** `{ erro : "Não existe processo em andamento" }`
+  * **Status:** 400 Bad Request  
+    **Corpo:** `{ erro: "Não existe processo em andamento" }`
 
   OU
 
-  * **Status:** 500 Internal Server Error <br />
-    **Corpo:** `{ erro : "Alguma coisa deu errada." }`
+  * **Status:** 500 Internal Server Error  
+    **Corpo:** `{ erro: "Alguma coisa deu errada." }`
 
 
 ----
@@ -401,7 +402,7 @@
   
 * **Resposta de Sucesso:**
 
-  * **Status:** 200 OK <br />
+  * **Status:** 200 OK  
     **Corpo:** 
     ```json
     {
@@ -413,7 +414,7 @@
                 "nome": "string",
                 "quantidade": "string",
                 "unidadeMedida": "enum"
-            }],
+            }]
         }],
         "tempoTotal": "number",
         "tempoAtual": "number",
@@ -467,18 +468,18 @@
 
 * **Resposta de Erro:**
 
-  * **Status:** 401 Unauthorized <br />
-    **Corpo:** `{ erro : "Token não encontrado." }`
+  * **Status:** 401 Unauthorized  
+    **Corpo:** `{ erro: "Token não encontrado." }`
 
   OU
 
-  * **Status:** 400 Bad Request <br />
-    **Corpo:** `{ erro : "Processo não encontrado." }`
+  * **Status:** 400 Bad Request  
+    **Corpo:** `{ erro: "Processo não encontrado." }`
 
   OU
 
-  * **Status:** 500 Internal Server Error <br />
-    **Corpo:** `{ erro : "Alguma coisa deu errada." }`
+  * **Status:** 500 Internal Server Error  
+    **Corpo:** `{ erro: "Alguma coisa deu errada." }`
 ----
 
 **Iniciar processo**
@@ -492,7 +493,7 @@
 
 * **Headers**
 
-  **authorization**: Token
+  **authorization**: Token  
   **Corpo-Type**: 'application/json'
 
 * **Método:**
@@ -502,7 +503,7 @@
 * **Payload:**
     ```json
     {
-        "nomeReceita": "string",
+        "nomeReceita": "string"
     }
 
     ```
@@ -510,28 +511,26 @@
   
 * **Resposta de Sucesso:**
 
-  * **Status:** 200 OK <br />
-    **Corpo:** 
+  * **Status:** 200 OK  
+    **Corpo:** `{ mensagem: "Receita iniciada com sucesso." }`
  
 * **Resposta de Erro:**
 
-  * **Status:** 401 Unauthorized br />
-    **Corpo:** `{ erro : "Token não encontrado." }`
+  * **Status:** 401 Unauthorized  
+    **Corpo:** `{ erro: "Token não encontrado." }`
 
   OU
 
-  * **Status:** 400 Bad Request <br />
-    **Corpo:** `{ erro : "Receita não encontrada." }`
+  * **Status:** 400 Bad Request  
+    **Corpo:** `{ erro: "Receita não encontrada." }`
 
   OU
 
-  * **Status:** 500 Internal Server Error <br />
-    **Corpo:** `{ erro : "Alguma coisa deu errada." }`
+  * **Status:** 500 Internal Server Error  
+    **Corpo:** `{ erro: "Alguma coisa deu errada." }`
 ----
 
 **Iniciar limpeza**
-
-    
 
 * **URL**
 
@@ -552,16 +551,15 @@
   
 * **Resposta de Sucesso:**
 
-  * **Status:** 200 OK <br />
+  * **Status:** 200 OK  
     **Corpo:** `{ mensagem: "Limpeza iniciada." }`
  
 * **Resposta de Erro:**
 
-  * **Status:** 401 Unauthorized br />
-    **Corpo:** `{ erro : "Token não encontrado." }`
+  * **Status:** 401 Unauthorized  
+    **Corpo:** `{ erro: "Token não encontrado." }`
 
   OU
 
-  * **Status:** 500 Internal Server Error <br />
-    **Corpo:** `{ erro : "Alguma coisa deu errada." }`
-
+  * **Status:** 500 Internal Server Error  
+    **Corpo:** `{ erro: "Alguma coisa deu errada." }`
