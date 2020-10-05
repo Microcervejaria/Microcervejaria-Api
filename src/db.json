@@ -1,0 +1,95 @@
+{
+  "receitas": [
+    {
+      "nome": "American IPA",
+      "descricao": "Cerveja amarga, com um toque suave de lúpulo Columbus",
+      "tempoMedio": "135",
+      "quantidadeLitros": "20",
+      "Ingredientes": [
+        {
+          "nome": "Água",
+          "quantidade": "21",
+          "unidadeMedida": "L"
+        },
+        {
+          "nome": "Malte Pielsen",
+          "quantidade": "5",
+          "unidadeMedida": "Kg"
+        },
+        {
+          "nome": "Malte Melanoidina",
+          "quantidade": "1",
+          "unidadeMedida": "Kg"
+        },
+        {
+          "nome": "Lúpulo Herkules",
+          "quantidade": "20",
+          "unidadeMedida": "g"
+        },
+        {
+          "nome": "Lúpulo Cascade",
+          "quantidade": "80",
+          "unidadeMedida": "g"
+        },
+        {
+          "nome": "Lúpulo Columbus",
+          "quantidade": "80",
+          "unidadeMedida": "g"
+        },
+        {
+          "nome": "Fermento US05",
+          "quantidade": "1",
+          "unidadeMedida": "pct"
+        }
+      ],
+      "aquecimento": {
+        "temperatura": "69"
+      },
+      "brassagem": [
+        {
+          "tempo": "60",
+          "temperatura": "64"
+        },
+        {
+          "tempo": "15",
+          "temperatura": "15"
+        }
+      ],
+      "fervura": {
+        "tempoTotal": "60",
+        "ingredientes": [
+          {
+            "tempo": "60",
+            "nome": "Herkules",
+            "quantidade": "20",
+            "unidadeMedida": "g"
+          },
+          {
+            "tempo": "10",
+            "nome": "Columbus",
+            "quantidade": "30",
+            "unidadeMedida": "g"
+          },
+          {
+            "tempo": "5",
+            "nome": "Cascade",
+            "quantidade": "30",
+            "unidadeMedida": "g"
+          },
+          {
+            "tempo": "0",
+            "nome": "Cascade",
+            "quantidade": "20",
+            "unidadeMedida": "g"
+          },
+          {
+            "tempo": "0",
+            "nome": "Columbus",
+            "quantidade": "20",
+            "unidadeMedida": "g"
+          }
+        ]
+      }
+    }
+  ]
+}
