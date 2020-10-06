@@ -1,3 +1,4 @@
 {
-  "/receita/:nome": "/receitas?nome=:nome"
+  "/receita/:nome": "/receitas?nome=:nome",
+  "/receita": "/receitas"
 }
