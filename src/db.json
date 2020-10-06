@@ -52,7 +52,7 @@
         },
         {
           "tempo": "15",
-          "temperatura": "15"
+          "temperatura": "77"
         }
       ],
       "fervura": {
@@ -86,6 +86,720 @@
             "tempo": "0",
             "nome": "Columbus",
             "quantidade": "20",
+            "unidadeMedida": "g"
+          }
+        ]
+      }
+    },
+    {
+      "nome": "Belgian IPA",
+      "descricao": "",
+      "tempoMedio": "135",
+      "quantidadeLitros": "20",
+      "Ingredientes": [
+        {
+          "nome": "Água",
+          "quantidade": "19",
+          "unidadeMedida": "L"
+        },
+        {
+          "nome": "Malte Pielsen",
+          "quantidade": "5",
+          "unidadeMedida": "Kg"
+        },
+        {
+          "nome": "Malte Caramelo 1",
+          "quantidade": "500",
+          "unidadeMedida": "g"
+        },
+        {
+          "nome": "Açucar Refinado",
+          "quantidade": "1",
+          "unidadeMedida": "Kg"
+        },
+        {
+          "nome": "Lúpulo Herkules",
+          "quantidade": "20",
+          "unidadeMedida": "g"
+        },
+        {
+          "nome": "Lúpulo Cascade",
+          "quantidade": "80",
+          "unidadeMedida": "g"
+        },
+        {
+          "nome": "Lúpulo Columbus",
+          "quantidade": "80",
+          "unidadeMedida": "g"
+        },
+        {
+          "nome": "Fermento T58",
+          "quantidade": "1",
+          "unidadeMedida": "pct"
+        },
+        {
+          "nome": "DME",
+          "quantidade": "100",
+          "unidadeMedida": "g"
+        }
+      ],
+      "aquecimento": {
+        "temperatura": "72"
+      },
+      "brassagem": [
+        {
+          "tempo": "60",
+          "temperatura": "67"
+        },
+        {
+          "tempo": "15",
+          "temperatura": "77"
+        }
+      ],
+      "fervura": {
+        "tempoTotal": "60",
+        "ingredientes": [
+          {
+            "tempo": "60",
+            "nome": "Herkules",
+            "quantidade": "20",
+            "unidadeMedida": "g"
+          },
+          {
+            "tempo": "60",
+            "nome": "Açúcar Refinado",
+            "quantidade": "500",
+            "unidadeMedida": "g"
+          },
+          {
+            "tempo": "10",
+            "nome": "Columbus",
+            "quantidade": "30",
+            "unidadeMedida": "g"
+          },
+          {
+            "tempo": "5",
+            "nome": "Cascade",
+            "quantidade": "30",
+            "unidadeMedida": "g"
+          },
+          {
+            "tempo": "0",
+            "nome": "Cascade",
+            "quantidade": "20",
+            "unidadeMedida": "g"
+          },
+          {
+            "tempo": "0",
+            "nome": "Columbus",
+            "quantidade": "20",
+            "unidadeMedida": "g"
+          }
+        ]
+      }
+    },
+    {
+      "nome": "Black IPA",
+      "descricao": "",
+      "tempoMedio": "135",
+      "quantidadeLitros": "20",
+      "Ingredientes": [
+        {
+          "nome": "Água",
+          "quantidade": "16",
+          "unidadeMedida": "L"
+        },
+        {
+          "nome": "Malte Pielsen",
+          "quantidade": "5",
+          "unidadeMedida": "Kg"
+        },
+        {
+          "nome": "Malte Melanoidina",
+          "quantidade": "1",
+          "unidadeMedida": "Kg"
+        },
+        {
+          "nome": "Malte Black",
+          "quantidade": "200",
+          "unidadeMedida": "g"
+        },
+        {
+          "nome": "Lúpulo Herkules",
+          "quantidade": "20",
+          "unidadeMedida": "g"
+        },
+        {
+          "nome": "Lúpulo Cascade",
+          "quantidade": "80",
+          "unidadeMedida": "g"
+        },
+        {
+          "nome": "Lúpulo Columbus",
+          "quantidade": "80",
+          "unidadeMedida": "g"
+        },
+        {
+          "nome": "Fermento US05",
+          "quantidade": "1",
+          "unidadeMedida": "pct"
+        }
+      ],
+      "aquecimento": {
+        "temperatura": "72"
+      },
+      "brassagem": [
+        {
+          "tempo": "60",
+          "temperatura": "65"
+        },
+        {
+          "tempo": "15",
+          "temperatura": "77"
+        }
+      ],
+      "fervura": {
+        "tempoTotal": "60",
+        "ingredientes": [
+          {
+            "tempo": "60",
+            "nome": "Herkules",
+            "quantidade": "20",
+            "unidadeMedida": "g"
+          },
+          {
+            "tempo": "10",
+            "nome": "Columbus",
+            "quantidade": "30",
+            "unidadeMedida": "g"
+          },
+          {
+            "tempo": "5",
+            "nome": "Cascade",
+            "quantidade": "30",
+            "unidadeMedida": "g"
+          },
+          {
+            "tempo": "0",
+            "nome": "Cascade",
+            "quantidade": "20",
+            "unidadeMedida": "g"
+          },
+          {
+            "tempo": "0",
+            "nome": "Columbus",
+            "quantidade": "20",
+            "unidadeMedida": "g"
+          }
+        ]
+      }
+    },
+    {
+      "nome": "Brown IPA",
+      "descricao": "",
+      "tempoMedio": "135",
+      "quantidadeLitros": "20",
+      "Ingredientes": [
+        {
+          "nome": "Água",
+          "quantidade": "21",
+          "unidadeMedida": "L"
+        },
+        {
+          "nome": "Malte Pielsen",
+          "quantidade": "5",
+          "unidadeMedida": "Kg"
+        },
+        {
+          "nome": "Malte Melanoidina",
+          "quantidade": "500",
+          "unidadeMedida": "g"
+        },
+        {
+          "nome": "Malte Caramelo 400",
+          "quantidade": "400",
+          "unidadeMedida": "g"
+        },
+        {
+          "nome": "Malte Chocolate Claro",
+          "quantidade": "100",
+          "unidadeMedida": "g"
+        },
+        {
+          "nome": "Lúpulo Herkules",
+          "quantidade": "20",
+          "unidadeMedida": "g"
+        },
+        {
+          "nome": "Lúpulo Cascade",
+          "quantidade": "80",
+          "unidadeMedida": "g"
+        },
+        {
+          "nome": "Lúpulo Columbus",
+          "quantidade": "80",
+          "unidadeMedida": "g"
+        },
+        {
+          "nome": "Fermento US05",
+          "quantidade": "1",
+          "unidadeMedida": "pct"
+        }
+      ],
+      "aquecimento": {
+        "temperatura": "69"
+      },
+      "brassagem": [
+        {
+          "tempo": "60",
+          "temperatura": "64"
+        },
+        {
+          "tempo": "15",
+          "temperatura": "77"
+        }
+      ],
+      "fervura": {
+        "tempoTotal": "60",
+        "ingredientes": [
+          {
+            "tempo": "60",
+            "nome": "Herkules",
+            "quantidade": "20",
+            "unidadeMedida": "g"
+          },
+          {
+            "tempo": "10",
+            "nome": "Columbus",
+            "quantidade": "30",
+            "unidadeMedida": "g"
+          },
+          {
+            "tempo": "5",
+            "nome": "Cascade",
+            "quantidade": "30",
+            "unidadeMedida": "g"
+          },
+          {
+            "tempo": "0",
+            "nome": "Cascade",
+            "quantidade": "20",
+            "unidadeMedida": "g"
+          },
+          {
+            "tempo": "0",
+            "nome": "Columbus",
+            "quantidade": "20",
+            "unidadeMedida": "g"
+          }
+        ]
+      }
+    },
+    {
+      "nome": "Red IPA",
+      "descricao": "",
+      "tempoMedio": "135",
+      "quantidadeLitros": "20",
+      "Ingredientes": [
+        {
+          "nome": "Água",
+          "quantidade": "21",
+          "unidadeMedida": "L"
+        },
+        {
+          "nome": "Malte Pielsen",
+          "quantidade": "5",
+          "unidadeMedida": "Kg"
+        },
+        {
+          "nome": "Malte Caramel 50",
+          "quantidade": "500",
+          "unidadeMedida": "g"
+        },
+        {
+          "nome": "Malte Caramel 200",
+          "quantidade": "200",
+          "unidadeMedida": "g"
+        },
+        {
+          "nome": "Malte Caramel 400",
+          "quantidade": "200",
+          "unidadeMedida": "g"
+        },
+        {
+          "nome": "Lúpulo Herkules",
+          "quantidade": "20",
+          "unidadeMedida": "g"
+        },
+        {
+          "nome": "Lúpulo Cascade",
+          "quantidade": "80",
+          "unidadeMedida": "g"
+        },
+        {
+          "nome": "Lúpulo Columbus",
+          "quantidade": "80",
+          "unidadeMedida": "g"
+        },
+        {
+          "nome": "Fermento US05",
+          "quantidade": "1",
+          "unidadeMedida": "pct"
+        }
+      ],
+      "aquecimento": {
+        "temperatura": "69"
+      },
+      "brassagem": [
+        {
+          "tempo": "60",
+          "temperatura": "64"
+        },
+        {
+          "tempo": "15",
+          "temperatura": "77"
+        }
+      ],
+      "fervura": {
+        "tempoTotal": "60",
+        "ingredientes": [
+          {
+            "tempo": "60",
+            "nome": "Herkules",
+            "quantidade": "20",
+            "unidadeMedida": "g"
+          },
+          {
+            "tempo": "10",
+            "nome": "Columbus",
+            "quantidade": "30",
+            "unidadeMedida": "g"
+          },
+          {
+            "tempo": "5",
+            "nome": "Cascade",
+            "quantidade": "30",
+            "unidadeMedida": "g"
+          },
+          {
+            "tempo": "0",
+            "nome": "Cascade",
+            "quantidade": "20",
+            "unidadeMedida": "g"
+          },
+          {
+            "tempo": "0",
+            "nome": "Columbus",
+            "quantidade": "20",
+            "unidadeMedida": "g"
+          }
+        ]
+      }
+    },
+    {
+      "nome": "Rye IPA",
+      "descricao": "",
+      "tempoMedio": "135",
+      "quantidadeLitros": "20",
+      "Ingredientes": [
+        {
+          "nome": "Água",
+          "quantidade": "21",
+          "unidadeMedida": "L"
+        },
+        {
+          "nome": "Malte Pielsen",
+          "quantidade": "5",
+          "unidadeMedida": "Kg"
+        },
+        {
+          "nome": "Malte de Centeio",
+          "quantidade": "1",
+          "unidadeMedida": "Kg"
+        },
+        {
+          "nome": "Malte de Centeio Caramelo",
+          "quantidade": "200",
+          "unidadeMedida": "g"
+        },
+        {
+          "nome": "Lúpulo Herkules",
+          "quantidade": "20",
+          "unidadeMedida": "g"
+        },
+        {
+          "nome": "Lúpulo Cascade",
+          "quantidade": "80",
+          "unidadeMedida": "g"
+        },
+        {
+          "nome": "Lúpulo Columbus",
+          "quantidade": "80",
+          "unidadeMedida": "g"
+        },
+        {
+          "nome": "Fermento US05",
+          "quantidade": "1",
+          "unidadeMedida": "pct"
+        }
+      ],
+      "aquecimento": {
+        "temperatura": "69"
+      },
+      "brassagem": [
+        {
+          "tempo": "60",
+          "temperatura": "64"
+        },
+        {
+          "tempo": "15",
+          "temperatura": "77"
+        }
+      ],
+      "fervura": {
+        "tempoTotal": "60",
+        "ingredientes": [
+          {
+            "tempo": "60",
+            "nome": "Herkules",
+            "quantidade": "20",
+            "unidadeMedida": "g"
+          },
+          {
+            "tempo": "10",
+            "nome": "Columbus",
+            "quantidade": "30",
+            "unidadeMedida": "g"
+          },
+          {
+            "tempo": "5",
+            "nome": "Cascade",
+            "quantidade": "30",
+            "unidadeMedida": "g"
+          },
+          {
+            "tempo": "0",
+            "nome": "Cascade",
+            "quantidade": "20",
+            "unidadeMedida": "g"
+          },
+          {
+            "tempo": "0",
+            "nome": "Columbus",
+            "quantidade": "20",
+            "unidadeMedida": "g"
+          }
+        ]
+      }
+    },
+    {
+      "nome": "White IPA",
+      "descricao": "",
+      "tempoMedio": "135",
+      "quantidadeLitros": "20",
+      "Ingredientes": [
+        {
+          "nome": "Água",
+          "quantidade": "18",
+          "unidadeMedida": "L"
+        },
+        {
+          "nome": "Malte Pielsen",
+          "quantidade": "3",
+          "unidadeMedida": "Kg"
+        },
+        {
+          "nome": "Malte de Trigo",
+          "quantidade": "2",
+          "unidadeMedida": "Kg"
+        },
+        {
+          "nome": "Malte Caramel 100",
+          "quantidade": "200",
+          "unidadeMedida": "g"
+        },
+        {
+          "nome": "Lúpulo Herkules",
+          "quantidade": "20",
+          "unidadeMedida": "g"
+        },
+        {
+          "nome": "Lúpulo Cascade",
+          "quantidade": "80",
+          "unidadeMedida": "g"
+        },
+        {
+          "nome": "Lúpulo Columbus",
+          "quantidade": "80",
+          "unidadeMedida": "g"
+        },
+        {
+          "nome": "Semente de Coentro",
+          "quantidade": "20",
+          "unidadeMedida": "g"
+        },
+        {
+          "nome": "Casca de Laranja ou Limão",
+          "quantidade": "20",
+          "unidadeMedida": "g"
+        },
+        {
+          "nome": "Fermento K97",
+          "quantidade": "1",
+          "unidadeMedida": "pct"
+        }
+      ],
+      "aquecimento": {
+        "temperatura": "69"
+      },
+      "brassagem": [
+        {
+          "tempo": "60",
+          "temperatura": "64"
+        },
+        {
+          "tempo": "15",
+          "temperatura": "77"
+        }
+      ],
+      "fervura": {
+        "tempoTotal": "60",
+        "ingredientes": [
+          {
+            "tempo": "60",
+            "nome": "Herkules",
+            "quantidade": "20",
+            "unidadeMedida": "g"
+          },
+          {
+            "tempo": "10",
+            "nome": "Columbus",
+            "quantidade": "30",
+            "unidadeMedida": "g"
+          },
+          {
+            "tempo": "5",
+            "nome": "Cascade",
+            "quantidade": "30",
+            "unidadeMedida": "g"
+          },
+          {
+            "tempo": "0",
+            "nome": "Cascade",
+            "quantidade": "20",
+            "unidadeMedida": "g"
+          },
+          {
+            "tempo": "0",
+            "nome": "Columbus",
+            "quantidade": "20",
+            "unidadeMedida": "g"
+          }
+        ]
+      }
+    },
+    {
+      "nome": "Double IPA",
+      "descricao": "",
+      "tempoMedio": "135",
+      "quantidadeLitros": "20",
+      "Ingredientes": [
+        {
+          "nome": "Água",
+          "quantidade": "21",
+          "unidadeMedida": "L"
+        },
+        {
+          "nome": "Malte Pielsen",
+          "quantidade": "5",
+          "unidadeMedida": "Kg"
+        },
+        {
+          "nome": "Malte Melanoidina",
+          "quantidade": "1",
+          "unidadeMedida": "Kg"
+        },
+        {
+          "nome": "Açucar refinado",
+          "quantidade": "700",
+          "unidadeMedida": "g"
+        },
+        {
+          "nome": "Lúpulo Herkules",
+          "quantidade": "30",
+          "unidadeMedida": "g"
+        },
+        {
+          "nome": "Lúpulo Cascade",
+          "quantidade": "160",
+          "unidadeMedida": "g"
+        },
+        {
+          "nome": "Lúpulo Columbus",
+          "quantidade": "160",
+          "unidadeMedida": "g"
+        },
+        {
+          "nome": "Fermento US05",
+          "quantidade": "1",
+          "unidadeMedida": "pct"
+        },
+        {
+          "nome": "DME",
+          "quantidade": "100",
+          "unidadeMedida": "g"
+        }
+      ],
+      "aquecimento": {
+        "temperatura": "72"
+      },
+      "brassagem": [
+        {
+          "tempo": "60",
+          "temperatura": "67"
+        },
+        {
+          "tempo": "15",
+          "temperatura": "77"
+        }
+      ],
+      "fervura": {
+        "tempoTotal": "60",
+        "ingredientes": [
+          {
+            "tempo": "60",
+            "nome": "Herkules",
+            "quantidade": "30",
+            "unidadeMedida": "g"
+          },
+          {
+            "tempo": "60",
+            "nome": "Açúcar Refinado",
+            "quantidade": "700",
+            "unidadeMedida": "g"
+          },
+          {
+            "tempo": "10",
+            "nome": "Columbus",
+            "quantidade": "60",
+            "unidadeMedida": "g"
+          },
+          {
+            "tempo": "5",
+            "nome": "Cascade",
+            "quantidade": "60",
+            "unidadeMedida": "g"
+          },
+          {
+            "tempo": "0",
+            "nome": "Cascade",
+            "quantidade": "40",
+            "unidadeMedida": "g"
+          },
+          {
+            "tempo": "0",
+            "nome": "Columbus",
+            "quantidade": "40",
             "unidadeMedida": "g"
           }
         ]
