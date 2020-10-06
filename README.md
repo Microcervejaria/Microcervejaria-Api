@@ -102,10 +102,10 @@
         "fervura": {
             "tempoTotal": "number",
             "ingredientes": [{
-            "tempo": "number",
-            "nome": "string",
-            "quantidade": "string",
-            "unidadeMedida": "enum"
+                "tempo": "number",
+                "nome": "string",
+                "quantidade": "string",
+                "unidadeMedida": "enum"
             }]
         }
     }
