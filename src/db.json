@@ -805,5 +805,130 @@
         ]
       }
     }
-  ]
+  ],
+  "processo": [
+    {
+      "processo": "aquecimento",
+      "etapas": [{
+          "temperatura": "69"
+      }],
+      "tempoAtual": "10",
+      "tempoRestante": "10"
+    },
+    {
+      "processo": "brassagem",
+      "etapas": [
+        {
+          "tempo": "60",
+          "temperatura": "64"
+        },
+        {
+          "tempo": "15",
+          "temperatura": "77"
+        }
+      ],
+      "tempoAtual": "20",
+      "tempoRestante": "40"
+    },
+    {
+      "processo": "fervura",
+      "etapas": [{
+        "ingredientes": [
+          {
+            "tempo": "60",
+            "nome": "Herkules",
+            "quantidade": "20",
+            "unidadeMedida": "g"
+          },
+          {
+            "tempo": "10",
+            "nome": "Columbus",
+            "quantidade": "30",
+            "unidadeMedida": "g"
+          },
+          {
+            "tempo": "5",
+            "nome": "Cascade",
+            "quantidade": "30",
+            "unidadeMedida": "g"
+          },
+          {
+            "tempo": "0",
+            "nome": "Cascade",
+            "quantidade": "20",
+            "unidadeMedida": "g"
+          },
+          {
+            "tempo": "0",
+            "nome": "Columbus",
+            "quantidade": "20",
+            "unidadeMedida": "g"
+          }
+        ] 
+      }],
+      "tempoTotal": "number",
+      "tempoAtual": "number",
+      "tempoRestante": "number"
+    }
+  ],
+  "aquecimento": {
+    "etapas": [{
+        "temperatura": "69"
+    }],
+    "tempoAtual": "10",
+    "tempoRestante": "10"
+  },
+  "brassagem": {
+    "etapas": [
+      {
+        "tempo": "60",
+        "temperatura": "64"
+      },
+      {
+        "tempo": "15",
+        "temperatura": "77"
+      }
+    ],
+    "tempoAtual": "20",
+    "tempoRestante": "40"
+  },
+  "fervura": {
+    "etapas": [{
+      "ingredientes": [
+        {
+          "tempo": "60",
+          "nome": "Herkules",
+          "quantidade": "20",
+          "unidadeMedida": "g"
+        },
+        {
+          "tempo": "10",
+          "nome": "Columbus",
+          "quantidade": "30",
+          "unidadeMedida": "g"
+        },
+        {
+          "tempo": "5",
+          "nome": "Cascade",
+          "quantidade": "30",
+          "unidadeMedida": "g"
+        },
+        {
+          "tempo": "0",
+          "nome": "Cascade",
+          "quantidade": "20",
+          "unidadeMedida": "g"
+        },
+        {
+          "tempo": "0",
+          "nome": "Columbus",
+          "quantidade": "20",
+          "unidadeMedida": "g"
+        }
+      ] 
+    }],
+    "tempoTotal": "number",
+    "tempoAtual": "number",
+    "tempoRestante": "number"
+  }
 }
