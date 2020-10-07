@@ -1,6 +1,6 @@
 # Documentação da API
 
-**Vizualizar todas as receitas**
+**Visualizar todas as receitas**
 
 
 * **URL**
@@ -11,7 +11,7 @@
 
   **authorization**: Token
 
-* **Método:**
+* **Método**
 
   `GET`
 
@@ -19,7 +19,7 @@
 
     None
   
-* **Resposta de Sucesso:**
+* **Resposta de Sucesso**
 
   * **Status:** 200 OK  
     **Corpo:** 
@@ -29,7 +29,7 @@
         "descricao": "string",
         "tempoMedio": "string",
         "quantidadeLitros": "number",
-            "Ingredientes": [{
+            "ingredientes": [{
 		        "nome": "string",
 		        "quantidade": "string",
  		        "unidadeMedida": "enum"
@@ -53,7 +53,7 @@
     }]
     ```
  
-* **Resposta de Erro:**
+* **Resposta de Erro**
 
   * **Status:** 401 Unauthorized  
     **Corpo:** `{ erro: "Token não encontrado." }`
@@ -76,18 +76,18 @@
   **authorization**: Token  
   **Content-Type**: 'application/json'
 
-* **Método:**
+* **Método**
 
   `POST`
   
-* **Payload:**
+* **Payload**
     ```json
     {
         "nome": "string",
         "descricao": "string",
         "tempoMedio": "string",
         "quantidadeLitros": "number",
-        "Ingredientes": [{
+        "ingredientes": [{
             "nome": "string",
             "quantidade": "string",
             "unidadeMedida": "enum"
@@ -112,12 +112,12 @@
     ```
 
   
-* **Resposta de Sucesso:**
+* **Resposta de Sucesso**
 
   * **Status:** 200 OK  
     **Corpo:** `{ mensagem: "Receita cadastrada com sucesso." }`
  
-* **Resposta de Erro:**
+* **Resposta de Erro**
 
   * **Status:** 401 Unauthorized  
     **Corpo:** `{ erro: "Token não encontrado." }`
@@ -150,11 +150,11 @@
 
   `GET`
 
-* **Data Params**
+* **Payload**
 
   None
   
-* **Resposta de Sucesso:**
+* **Resposta de Sucesso**
 
   * **Status:** 200 OK  
     **Corpo:** 
@@ -164,7 +164,7 @@
 	    "descricao": "string",
 	    "tempoMedio": "string",
 	    "quantidadeLitros": "number",
-	    "Ingredientes": [{
+	    "ingredientes": [{
 		    "nome": "string",
 		    "quantidade": "string",
  		    "unidadeMedida": "enum"
@@ -188,7 +188,7 @@
     }
     ```
  
-* **Resposta de Erro:**
+* **Resposta de Erro**
 
   * **Status:** 401 Unauthorized  
     **Corpo:** `{ erro: "Token não encontrado." }`
@@ -209,7 +209,6 @@
 **Editar Receita**
 
     
-
 * **URL**
 
   /receita
@@ -219,18 +218,18 @@
   **authorization**: Token  
   **Content-Type**: 'application/json'
 
-* **Método:**
+* **Método**
 
   `PUT`
   
-* **Payload:**
+* **Payload**
     ```json
     {
         "nome": "string",
         "descricao": "string",
         "tempoMedio": "string",
         "quantidadeLitros": "number",
-        "Ingredientes": [{
+        "ingredientes": [{
             "nome": "string",
             "quantidade": "string",
             "unidadeMedida": "enum"
@@ -255,12 +254,12 @@
     ```
 
   
-* **Resposta de Sucesso:**
+* **Resposta de Sucesso**
 
   * **Status:** 200 OK  
     **Corpo:** `{ mensagem: "Receita atualizada com sucesso." }`
  
-* **Resposta de Erro:**
+* **Resposta de Erro**
 
   * **Status:** 401 Unauthorized  
     **Corpo:** `{ erro: "Token não encontrado." }`
@@ -269,6 +268,11 @@
 
   * **Status:** 400 Bad Request  
     **Corpo:** `{ erro: "Não foi possível editar a receita" }`
+    
+  OU
+  
+    * **Status:** 500 Internal Server Error  
+      **Corpo:** `{ erro: "Alguma coisa deu errada." }`
 
 ----    
 
@@ -283,15 +287,15 @@
 
   **authorization**: Token
 
-* **Método:**
+* **Método**
 
   `GET`
 
-* **Data Params**
+* **Payload**
 
   None
   
-* **Resposta de Sucesso:**
+* **Resposta de Sucesso**
 
   * **Status:** 200 OK  
     **Corpo:** 
@@ -361,7 +365,7 @@
 
 
 
-* **Resposta de Erro:**
+* **Resposta de Erro**
 
   * **Status:** 401 Unauthorized  
     **Corpo:** `{ erro: "Token não encontrado." }`
@@ -369,7 +373,7 @@
   OU
 
   * **Status:** 400 Bad Request  
-    **Corpo:** `{ erro: "Não existe processo em andamento" }`
+    **Corpo:** `{ erro: "Não existe processo em andamento." }`
 
   OU
 
@@ -382,8 +386,6 @@
 **Visualizar processo específico**
 
 
-    
-
 * **URL**
 
   /processo/:processo.nome
@@ -392,7 +394,7 @@
 
   **authorization**: Token
 
-* **Método:**
+* **Método**
 
   `GET`
 
@@ -400,7 +402,7 @@
 
   None
   
-* **Resposta de Sucesso:**
+* **Resposta de Sucesso**
 
   * **Status:** 200 OK  
     **Corpo:** 
@@ -424,7 +426,7 @@
     ```
     **Exemplo aquecimento:** 
     ```json
-     {
+    {
         "etapas": [{
             "temperatura": "number"
         }],
@@ -465,8 +467,7 @@
     ```
 
 
-
-* **Resposta de Erro:**
+* **Resposta de Erro**
 
   * **Status:** 401 Unauthorized  
     **Corpo:** `{ erro: "Token não encontrado." }`
@@ -485,8 +486,6 @@
 **Iniciar processo**
 
 
-    
-
 * **URL**
 
   /iniciar
@@ -496,11 +495,11 @@
   **authorization**: Token  
   **Corpo-Type**: 'application/json'
 
-* **Método:**
+* **Método**
 
   `POST`
   
-* **Payload:**
+* **Payload**
     ```json
     {
         "nomeReceita": "string"
@@ -509,12 +508,12 @@
     ```
 
   
-* **Resposta de Sucesso:**
+* **Resposta de Sucesso**
 
   * **Status:** 200 OK  
     **Corpo:** `{ mensagem: "Receita iniciada com sucesso." }`
  
-* **Resposta de Erro:**
+* **Resposta de Erro**
 
   * **Status:** 401 Unauthorized  
     **Corpo:** `{ erro: "Token não encontrado." }`
@@ -540,21 +539,21 @@
 
   **authorization**: Token
 
-* **Método:**
+* **Método**
 
   `POST`
   
-* **Payload:**
+* **Payload**
   
   None
 
   
-* **Resposta de Sucesso:**
+* **Resposta de Sucesso**
 
   * **Status:** 200 OK  
     **Corpo:** `{ mensagem: "Limpeza iniciada." }`
  
-* **Resposta de Erro:**
+* **Resposta de Erro**
 
   * **Status:** 401 Unauthorized  
     **Corpo:** `{ erro: "Token não encontrado." }`
