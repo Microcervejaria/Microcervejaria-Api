@@ -16,7 +16,7 @@ module.exports = (req, res, next) => {
 
     if (req.method === "POST") {
         if(req.originalUrl == '/receitas') {
-            const parametros_receita = [ 'id', 'nome', 'descricao', 'tempoMedio', 'quantidadeLitros', 'Ingredientes', 'aquecimento', 'brassagem', 'fervura' ];
+            const parametros_receita = [ 'nome', 'descricao', 'tempoMedio', 'quantidadeLitros', 'Ingredientes', 'aquecimento', 'brassagem', 'fervura' ];
             sendResponse(req, res, parametros_receita, 'Receita cadastrada com sucesso.', 'Não foi possível adicionar a receita.')
         }
         if(req.originalUrl == '/iniciar') {
@@ -30,7 +30,7 @@ module.exports = (req, res, next) => {
     }
     else if (req.method == "PUT") {
         if(req.originalUrl == '/receita') {
-            const parametros_receita = [ 'id', 'nome', 'descricao', 'tempoMedio', 'quantidadeLitros', 'Ingredientes', 'aquecimento', 'brassagem', 'fervura' ];
+            const parametros_receita = [ 'nome', 'descricao', 'tempoMedio', 'quantidadeLitros', 'Ingredientes', 'aquecimento', 'brassagem', 'fervura' ];
             sendResponse(req, res, parametros_receita, 'Receita atualizada com sucesso.', 'Não foi possível atualizar a receita.')
         }
     }
