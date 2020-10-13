@@ -1,0 +1,5 @@
+{
+  "/receita/:nome": "/receitas?nome=:nome",
+  "/receita": "/receitas",
+  "/processo/:nome": "/:nome"
+}
