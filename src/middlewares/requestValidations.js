@@ -1,4 +1,4 @@
-module.exports = (req, res, next) => {
+const requestValidations = (req, res, next) => {
     // const parametros_receitas = ['nome', 'descricao', 'tempoMedio', 'quantidadeLitros', 'Ingredientes', 'aquecimento', 'brassagem', 'fervura']
     function checkEquals(array1, array2) {
         return (array1.sort().toString() == array2.sort().toString())
@@ -38,3 +38,5 @@ module.exports = (req, res, next) => {
         next();
     }  
 }
+
+module.exports = requestValidations;

@@ -5,6 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server.js",
     "dev": "json-server --watch src/db.json --middlewares src/middlewares/tokenValidation src/middlewares/requestValidations src/middlewares/objectsIdentifier  --routes src/routes.json"
   },
   "repository": {

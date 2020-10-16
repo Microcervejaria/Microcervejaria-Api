@@ -1,4 +1,4 @@
-module.exports = (req, res, next) => {
+const tokenValidation = (req, res, next) => {
     console.log(req.headers.authorization)
     if(req.headers.authorization == 'cervejaria') {
         next();
@@ -7,3 +7,5 @@ module.exports = (req, res, next) => {
         res.json({ erro: 'Token não encontrado.'});
     }
 }
+
+module.exports = tokenValidation;
