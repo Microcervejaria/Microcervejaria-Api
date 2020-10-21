@@ -6,11 +6,10 @@ const requestValidations = (req, res, next) => {
 
     function sendResponse(req, res, params, successMessage, failMessage) {
         if(checkEquals(params, Object.keys(req.body))){
-            res.status(200);
-            next();
+            res.status(200).json({ message: successMessage });
         }
         else {
-            res.status(400).json({ erro: failMessage});
+            res.status(400).json({ erro: failMessage });
         }
     }
 
@@ -21,7 +20,7 @@ const requestValidations = (req, res, next) => {
         }
         if(req.originalUrl == '/iniciar') {
             const parametros_iniciar = [ 'nomeReceita' ];
-            sendResponse(req, res, parametros_inciar, 'Receita iniciada com sucesso.', 'Receita não encontrada.')
+            sendResponse(req, res, parametros_iniciar, 'Receita iniciada com sucesso.', 'Receita não encontrada.')
         }
         if(req.originalUrl == '/limpeza') {
             const parametros_limpeza = [];
