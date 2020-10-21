@@ -1,5 +1,5 @@
 {
-  "/receita/:nome": "/receitas?nome=:nome",
+  "/receita/:nome": "/receitas?nome_like=:nome",
   "/receita": "/receitas",
   "/processo/:nome": "/:nome"
 }
