@@ -33,9 +33,7 @@ const requestValidations = (req, res, next) => {
             sendResponse(req, res, parametros_receita, 'Receita atualizada com sucesso.', 'Não foi possível atualizar a receita.')
         }
     }
-    else {  
-        next();
-    }  
+    next();
 }
 
 module.exports = requestValidations;
