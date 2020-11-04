@@ -211,7 +211,7 @@
     
 * **URL**
 
-  /receita
+  /receitas/:nomeReceita
 
 * **Headers**
 
