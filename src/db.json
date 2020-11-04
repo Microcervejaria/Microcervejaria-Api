@@ -5,7 +5,7 @@
       "descricao": "Cerveja amarga, com um toque suave de lúpulo Columbus",
       "tempoMedio": "135",
       "quantidadeLitros": "20",
-      "Ingredientes": [
+      "ingredientes": [
         {
           "nome": "Água",
           "quantidade": "21",
@@ -96,7 +96,7 @@
       "descricao": "",
       "tempoMedio": "135",
       "quantidadeLitros": "20",
-      "Ingredientes": [
+      "ingredientes": [
         {
           "nome": "Água",
           "quantidade": "19",
@@ -203,7 +203,7 @@
       "descricao": "",
       "tempoMedio": "135",
       "quantidadeLitros": "20",
-      "Ingredientes": [
+      "ingredientes": [
         {
           "nome": "Água",
           "quantidade": "16",
@@ -299,7 +299,7 @@
       "descricao": "",
       "tempoMedio": "135",
       "quantidadeLitros": "20",
-      "Ingredientes": [
+      "ingredientes": [
         {
           "nome": "Água",
           "quantidade": "21",
@@ -400,7 +400,7 @@
       "descricao": "",
       "tempoMedio": "135",
       "quantidadeLitros": "20",
-      "Ingredientes": [
+      "ingredientes": [
         {
           "nome": "Água",
           "quantidade": "21",
@@ -501,7 +501,7 @@
       "descricao": "",
       "tempoMedio": "135",
       "quantidadeLitros": "20",
-      "Ingredientes": [
+      "ingredientes": [
         {
           "nome": "Água",
           "quantidade": "21",
@@ -597,7 +597,7 @@
       "descricao": "",
       "tempoMedio": "135",
       "quantidadeLitros": "20",
-      "Ingredientes": [
+      "ingredientes": [
         {
           "nome": "Água",
           "quantidade": "18",
@@ -703,7 +703,7 @@
       "descricao": "",
       "tempoMedio": "135",
       "quantidadeLitros": "20",
-      "Ingredientes": [
+      "ingredientes": [
         {
           "nome": "Água",
           "quantidade": "21",
@@ -800,6 +800,97 @@
             "tempo": "0",
             "nome": "Columbus",
             "quantidade": "40",
+            "unidadeMedida": "gramas"
+          }
+        ]
+      }
+    },
+    {
+      "nome": "nomeTeste2",
+      "descricao": "Cerveja amarga, com um toque suave de lúpulo Columbus",
+      "tempoMedio": "1310",
+      "quantidadeLitros": "40",
+      "ingredientes": [
+        {
+          "nome": "Água",
+          "quantidade": "213",
+          "unidadeMedida": "Litros"
+        },
+        {
+          "nome": "Malte Pielsen",
+          "quantidade": "5",
+          "unidadeMedida": "Kilos"
+        },
+        {
+          "nome": "Malte Melanoidina",
+          "quantidade": "1",
+          "unidadeMedida": "Kilos"
+        },
+        {
+          "nome": "Lúpulo Herkules",
+          "quantidade": "20",
+          "unidadeMedida": "gramas"
+        },
+        {
+          "nome": "Lúpulo Cascade",
+          "quantidade": "80",
+          "unidadeMedida": "gramas"
+        },
+        {
+          "nome": "Lúpulo Columbus",
+          "quantidade": "80",
+          "unidadeMedida": "gramas"
+        },
+        {
+          "nome": "Fermento US05",
+          "quantidade": "1",
+          "unidadeMedida": "pacote"
+        }
+      ],
+      "aquecimento": {
+        "temperatura": "69"
+      },
+      "brassagem": [
+        {
+          "tempo": "60",
+          "temperatura": "64"
+        },
+        {
+          "tempo": "15",
+          "temperatura": "77"
+        }
+      ],
+      "fervura": {
+        "tempoTotal": "60",
+        "ingredientes": [
+          {
+            "tempo": "60",
+            "nome": "Herkules",
+            "quantidade": "20",
+            "unidadeMedida": "gramas"
+          },
+          {
+            "tempo": "10",
+            "nome": "Columbus",
+            "quantidade": "30",
+            "unidadeMedida": "gramas"
+          },
+          {
+            "tempo": "5",
+            "nome": "Cascade",
+            "quantidade": "30",
+            "unidadeMedida": "gramas"
+          },
+          {
+            "tempo": "0",
+            "nome": "Cascade",
+            "quantidade": "20",
+            "unidadeMedida": "gramas"
+          },
+          {
+            "tempo": "0",
+            "nome": "Columbus",
+            "quantidade": "20",
             "unidadeMedida": "gramas"
           }
         ]
