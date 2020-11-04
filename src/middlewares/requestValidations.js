@@ -42,6 +42,13 @@ const requestValidations = (req, res) => {
             sendResponse(req, res, parametros_receita, 'Processo atualizado com sucesso.', 'Não foi possível atualizar o processo.')
         }
     }
+    else if (req.method == "DELETE") {
+        const first_path = req.path.split("/")[1];
+        if(req.path == '/receitas' || first_path == 'receitas') {
+            const parametros_receita = [];
+            sendResponse(req, res, parametros_receita, 'Receita removida com sucesso.', 'Não foi possível remover a receita.')
+        }
+    }
     else {
         res.jsonp(res.locals.data)
     }
