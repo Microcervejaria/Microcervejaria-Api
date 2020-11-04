@@ -274,8 +274,48 @@
     * **Status:** 500 Internal Server Error  
       **Corpo:** `{ erro: "Alguma coisa deu errada." }`
 
-----    
 
+----
+
+**Remover Receita**
+
+    
+* **URL**
+
+  /receitas/:nomeReceita
+
+* **Headers**
+
+  **authorization**: Token  
+  **Content-Type**: 'application/json'
+
+* **Método**
+
+  `DELETE`
+
+  
+* **Resposta de Sucesso**
+
+  * **Status:** 200 OK  
+    **Corpo:** `{ mensagem: "Receita foi removida com sucesso." }`
+ 
+* **Resposta de Erro**
+
+  * **Status:** 401 Unauthorized  
+    **Corpo:** `{ erro: "Token não encontrado." }`
+
+  OU
+
+  * **Status:** 400 Bad Request  
+    **Corpo:** `{ erro: "Não foi possível remover a receita" }`
+    
+  OU
+  
+    * **Status:** 500 Internal Server Error  
+      **Corpo:** `{ erro: "Alguma coisa deu errada." }`
+
+
+----    
 
 **Visualizar processo atual**
 
