@@ -5,7 +5,7 @@
       "descricao": "Cerveja amarga, com um toque suave de lúpulo Columbus",
       "tempoMedio": "135",
       "quantidadeLitros": "20",
-      "Ingredientes": [
+      "ingredientes": [
         {
           "nome": "Água",
           "quantidade": "21",
@@ -96,7 +96,7 @@
       "descricao": "",
       "tempoMedio": "135",
       "quantidadeLitros": "20",
-      "Ingredientes": [
+      "ingredientes": [
         {
           "nome": "Água",
           "quantidade": "19",
@@ -203,7 +203,7 @@
       "descricao": "",
       "tempoMedio": "135",
       "quantidadeLitros": "20",
-      "Ingredientes": [
+      "ingredientes": [
         {
           "nome": "Água",
           "quantidade": "16",
@@ -299,7 +299,7 @@
       "descricao": "",
       "tempoMedio": "135",
       "quantidadeLitros": "20",
-      "Ingredientes": [
+      "ingredientes": [
         {
           "nome": "Água",
           "quantidade": "21",
@@ -400,7 +400,7 @@
       "descricao": "",
       "tempoMedio": "135",
       "quantidadeLitros": "20",
-      "Ingredientes": [
+      "ingredientes": [
         {
           "nome": "Água",
           "quantidade": "21",
@@ -501,7 +501,7 @@
       "descricao": "",
       "tempoMedio": "135",
       "quantidadeLitros": "20",
-      "Ingredientes": [
+      "ingredientes": [
         {
           "nome": "Água",
           "quantidade": "21",
@@ -597,7 +597,7 @@
       "descricao": "",
       "tempoMedio": "135",
       "quantidadeLitros": "20",
-      "Ingredientes": [
+      "ingredientes": [
         {
           "nome": "Água",
           "quantidade": "18",
@@ -703,7 +703,7 @@
       "descricao": "",
       "tempoMedio": "135",
       "quantidadeLitros": "20",
-      "Ingredientes": [
+      "ingredientes": [
         {
           "nome": "Água",
           "quantidade": "21",
@@ -806,75 +806,17 @@
       }
     }
   ],
-  "processo": [
-    {
-      "processo": "aquecimento",
-      "etapas": [
-        {
-          "temperatura": "69"
-        }
-      ],
-      "tempoAtual": "10",
-      "tempoRestante": "10"
-    },
-    {
-      "processo": "brassagem",
-      "etapas": [
-        {
-          "tempo": "60",
-          "temperatura": "64"
-        },
-        {
-          "tempo": "15",
-          "temperatura": "77"
-        }
-      ],
-      "tempoAtual": "20",
-      "tempoRestante": "40"
-    },
-    {
-      "processo": "fervura",
-      "etapas": [
-        {
-          "ingredientes": [
-            {
-              "tempo": "60",
-              "nome": "Herkules",
-              "quantidade": "20",
-              "unidadeMedida": "gramas"
-            },
-            {
-              "tempo": "10",
-              "nome": "Columbus",
-              "quantidade": "30",
-              "unidadeMedida": "gramas"
-            },
-            {
-              "tempo": "5",
-              "nome": "Cascade",
-              "quantidade": "30",
-              "unidadeMedida": "gramas"
-            },
-            {
-              "tempo": "0",
-              "nome": "Cascade",
-              "quantidade": "20",
-              "unidadeMedida": "gramas"
-            },
-            {
-              "tempo": "0",
-              "nome": "Columbus",
-              "quantidade": "20",
-              "unidadeMedida": "gramas"
-            }
-          ]
-        }
-      ],
-      "tempoTotal": "number",
-      "tempoAtual": "number",
-      "tempoRestante": "number"
-    }
-  ],
+  "processo": {
+    "processo": "aquecimento",
+    "etapas": [
+      {
+        "temperatura": "69"
+      }
+    ],
+    "tempoAtual": "10",
+    "tempoRestante": "10",
+    "temperaturaAtual": "49"
+  },
   "aquecimento": {
     "etapas": [
       {
@@ -882,7 +824,8 @@
       }
     ],
     "tempoAtual": "10",
-    "tempoRestante": "10"
+    "tempoRestante": "10",
+    "temperaturaAtual": "49"
   },
   "brassagem": {
     "etapas": [
@@ -896,7 +839,8 @@
       }
     ],
     "tempoAtual": "20",
-    "tempoRestante": "40"
+    "tempoRestante": "40",
+    "temperaturaAtual": "49"
   },
   "fervura": {
     "etapas": [
@@ -937,6 +881,7 @@
     ],
     "tempoTotal": "number",
     "tempoAtual": "number",
-    "tempoRestante": "number"
+    "tempoRestante": "number",
+    "temperaturaAtual": "49"
   }
 }

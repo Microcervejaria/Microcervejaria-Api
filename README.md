@@ -211,7 +211,7 @@
     
 * **URL**
 
-  /receita
+  /receitas/:nomeReceita
 
 * **Headers**
 
@@ -274,8 +274,48 @@
     * **Status:** 500 Internal Server Error  
       **Corpo:** `{ erro: "Alguma coisa deu errada." }`
 
-----    
 
+----
+
+**Remover Receita**
+
+    
+* **URL**
+
+  /receitas/:nomeReceita
+
+* **Headers**
+
+  **authorization**: Token  
+  **Content-Type**: 'application/json'
+
+* **Método**
+
+  `DELETE`
+
+  
+* **Resposta de Sucesso**
+
+  * **Status:** 200 OK  
+    **Corpo:** `{ mensagem: "Receita foi removida com sucesso." }`
+ 
+* **Resposta de Erro**
+
+  * **Status:** 401 Unauthorized  
+    **Corpo:** `{ erro: "Token não encontrado." }`
+
+  OU
+
+  * **Status:** 400 Bad Request  
+    **Corpo:** `{ erro: "Não foi possível remover a receita" }`
+    
+  OU
+  
+    * **Status:** 500 Internal Server Error  
+      **Corpo:** `{ erro: "Alguma coisa deu errada." }`
+
+
+----    
 
 **Visualizar processo atual**
 
@@ -314,7 +354,8 @@
         }],
         "tempoTotal": "number",
         "tempoAtual": "number",
-        "tempoRestante": "number"
+        "tempoRestante": "number",
+        "temperaturaAtual": "number"
     }
 
     ```
@@ -326,7 +367,8 @@
             "temperatura": "number"
         }],
         "tempoAtual": "number",
-        "tempoRestante": "number"
+        "tempoRestante": "number",
+        "temperaturaAtual": "number"
     }
 
     ```
@@ -340,7 +382,8 @@
             "temperatura": "number"
         }],
         "tempoAtual": "number",
-        "tempoRestante": "number"
+        "tempoRestante": "number",
+        "temperaturaAtual": "number"
     }
 
     ```
@@ -359,7 +402,8 @@
         }],
         "tempoTotal": "number",
         "tempoAtual": "number",
-        "tempoRestante": "number"
+        "tempoRestante": "number",
+        "temperaturaAtual": "number"
     }
     ```
 
@@ -481,6 +525,65 @@
 
   * **Status:** 500 Internal Server Error  
     **Corpo:** `{ erro: "Alguma coisa deu errada." }`
+----
+
+**Atualizar processo atual**
+
+* **URL**
+
+  /processo
+
+* **Headers**
+
+  **authorization**: Token
+
+* **Método**
+
+  `PUT`
+
+* **Payload**
+    ```json
+    {
+        "processo": "string",
+        "etapas": [{
+            "tempo": "number",
+            "temperatura": "number",
+            "ingredientes": [{
+                "tempo": "number",
+                "nome": "string",
+                "quantidade": "string",
+                "unidadeMedida": "enum"
+            }]
+        }],
+        "tempoTotal": "number",
+        "tempoAtual": "number",
+        "temperaturaAtual": "number",
+        "tempoRestante": "number"
+    }
+
+    ```
+
+  
+* **Resposta de Sucesso**
+
+  * **Status:** 200 OK  
+    **Corpo:** `{ mensagem: Processo(objeto) }`
+ 
+* **Resposta de Erro**
+
+  * **Status:** 401 Unauthorized  
+    **Corpo:** `{ erro: "Token não encontrado." }`
+
+  OU
+
+  * **Status:** 400 Bad Request  
+    **Corpo:** `{ erro: "Não foi possível atualizar o processo" }`
+    
+  OU
+
+  * **Status:** 500 Internal Server Error  
+    **Corpo:** `{ erro: "Alguma coisa deu errada." }`
+
 ----
 
 **Iniciar processo**
