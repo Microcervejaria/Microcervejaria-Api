@@ -818,6 +818,7 @@
     "temperaturaAtual": "49"
   },
   "aquecimento": {
+    "processo": "aquecimento",
     "etapas": [
       {
         "temperatura": "69"
