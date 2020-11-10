@@ -831,11 +831,13 @@
     "etapas": [
       {
         "tempo": "60",
-        "temperatura": "64"
+        "temperatura": "64",
+        "estado": "-1"
       },
       {
         "tempo": "15",
-        "temperatura": "77"
+        "temperatura": "77",
+        "estado": "1"
       }
     ],
     "tempoAtual": "20",
@@ -850,31 +852,36 @@
             "tempo": "60",
             "nome": "Herkules",
             "quantidade": "20",
-            "unidadeMedida": "gramas"
+            "unidadeMedida": "gramas",
+            "estado": "-1"
           },
           {
             "tempo": "10",
             "nome": "Columbus",
             "quantidade": "30",
-            "unidadeMedida": "gramas"
+            "unidadeMedida": "gramas",
+            "estado": "1"
           },
           {
             "tempo": "5",
             "nome": "Cascade",
             "quantidade": "30",
-            "unidadeMedida": "gramas"
+            "unidadeMedida": "gramas",
+            "estado": "0"
           },
           {
             "tempo": "0",
             "nome": "Cascade",
             "quantidade": "20",
-            "unidadeMedida": "gramas"
+            "unidadeMedida": "gramas",
+            "estado": "0"
           },
           {
             "tempo": "0",
             "nome": "Columbus",
             "quantidade": "20",
-            "unidadeMedida": "gramas"
+            "unidadeMedida": "gramas",
+            "estado": "0"
           }
         ]
       }

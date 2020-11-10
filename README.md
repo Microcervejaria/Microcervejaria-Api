@@ -349,7 +349,8 @@
                 "tempo": "number",
                 "nome": "string",
                 "quantidade": "string",
-                "unidadeMedida": "enum"
+                "unidadeMedida": "enum",
+                "estado": "enum[-1 -> já processado, 0 -> não processado, 1 -> processando]" 
             }]
         }],
         "tempoTotal": "number",
@@ -359,6 +360,7 @@
     }
 
     ```
+
     **Exemplo aquecimento:** 
     ```json
      {
@@ -459,7 +461,8 @@
                 "tempo": "number",
                 "nome": "string",
                 "quantidade": "string",
-                "unidadeMedida": "enum"
+                "unidadeMedida": "enum",
+                "estado": "enum[-1 -> já processado, 0 -> não processado, 1 -> processando]"
             }]
         }],
         "tempoTotal": "number",
@@ -485,7 +488,8 @@
     {
         "etapas": [{
             "tempo": "number",
-            "temperatura": "number"
+            "temperatura": "number",
+            "estado": "enum[-1 -> já processado, 0 -> não processado, 1 -> processando]"
         }],
         "tempoAtual": "number",
         "tempoRestante": "number"
@@ -501,7 +505,8 @@
                 "tempo": "number",
                 "nome": "string",
                 "quantidade": "string",
-                "unidadeMedida": "enum"
+                "unidadeMedida": "enum",
+                "estado": "enum[-1 -> já processado, 0 -> não processado, 1 -> processando]"
             }]
         }],
         "tempoTotal": "number",
@@ -552,7 +557,8 @@
                 "tempo": "number",
                 "nome": "string",
                 "quantidade": "string",
-                "unidadeMedida": "enum"
+                "unidadeMedida": "enum",
+                "estado": "enum[-1 -> já processado, 0 -> não processado, 1 -> processando]"
             }]
         }],
         "tempoTotal": "number",
