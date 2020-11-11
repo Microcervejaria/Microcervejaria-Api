@@ -26,9 +26,13 @@ const requestValidations = (req, res) => {
             const parametros_iniciar = [ 'nomeReceita' ];
             sendResponse(req, res, parametros_iniciar, 'Receita iniciada com sucesso.', 'Receita não encontrada.')
         }
-        if(req.originalUrl == '/limpeza', first_path == 'limpeza') {
+        if(req.originalUrl == '/limpeza' || first_path == 'limpeza') {
             const parametros_limpeza = ['nomeReceita'];
             sendResponse(req, res, parametros_limpeza, 'Limpeza iniciada.', 'Alguma coisa deu errada.')
+        }
+        if(req.originalUrl == 'processo/encerrar' || first_path == 'encerrar'){
+            const parametros_encerramento = [''];
+            sendResponse(req, res, parametros_encerramento, 'Processo encerrado com sucesso.', 'Não foi possível finalizar o processo.')
         }
     }
     else if (req.method == "PUT") {
